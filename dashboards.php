@@ -17,7 +17,7 @@ $actions=$pdo->query("SELECT n.message,n.created_at,u.nom_complet FROM notificat
 <main class="main-content">
   <h1 class="page-title">Tableau de bord</h1>
   <div class="cards-grid">
-    <a href="<?=BASE?>/pages/enseignant/offres.php" class="dash-card accent-blue">
+    <a href="<?=BASE?>/pages/enseignant/offre.php" class="dash-card accent-blue">
       <div class="dash-card-header"><span class="dash-card-icon">💼</span><span class="dash-card-title">Offres de stage</span></div>
       <p class="dash-card-desc">Gérez les offres de stage disponibles</p>
       <div class="dash-card-count"><?=(int)$nb_offres?:12?></div></a>
